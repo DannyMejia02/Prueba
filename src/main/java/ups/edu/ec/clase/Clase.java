@@ -34,10 +34,12 @@ public class Clase {
         System.out.println(autoJuan.color+" | "+autoJuan.marca+" | "+autoJuan.year+" | "+autoJuan.placa+" | "+autoJuan.precio+" | ");
         var esTaxi=false;
         esTaxi=autoJuan.esTaxi();
-        if(esTaxi==true){
-            System.out.println("El auto de placa"+autoJuan.placa+"es un taxi");
-            }
+        if(esTaxi = autoJuan.esTaxi()){
+            System.out.println("El auto de placa "+autoJuan.placa+" es un taxi");
+            }else{
+            System.out.println("El auto de la placa "+autoJuan.placa+ "No es un taxi");
+        }
         System.out.println("Es Taxi: "+autoJuan.esTaxi());
-        System.out.println("El auto de placa"+autoJuan.placa+"debe pagar la tasa"+autoJuan.calcularTasaSolidaria());
+        System.out.println("El auto de placa "+autoJuan.placa+" debe pagar la tasa de "+autoJuan.calcularTasaSolidaria());
     }
 }
