@@ -30,7 +30,6 @@ public class EjercicioBandera extends JFrame{
         contenedor.add(new JLabel("Button 1"),BorderLayout.NORTH);
         contenedor.add(new JLabel("Button 4"),BorderLayout.SOUTH);
         contenedor.add(new JLabel("Button 5"),BorderLayout.EAST);
-        contenedor.add(new JLabel("Button 2"),BorderLayout.CENTER);
         contenedor.add(new JLabel("Button 3"),BorderLayout.WEST);
         
         
