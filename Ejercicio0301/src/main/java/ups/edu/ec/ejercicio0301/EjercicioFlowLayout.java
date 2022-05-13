@@ -5,7 +5,7 @@
 package ups.edu.ec.ejercicio0301;
 
 import java.awt.FlowLayout;
-import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -22,7 +22,7 @@ public class EjercicioFlowLayout extends JFrame{
         contenedor = new JPanel();
         contenedor.setLayout(new FlowLayout());
         for(int i=0;i<5;i++){
-            contenedor.add(new JButton("Button  "+(i+1)));
+            contenedor.add(new JLabel("Button  "+(i+1)));
         }
         
         add(contenedor);

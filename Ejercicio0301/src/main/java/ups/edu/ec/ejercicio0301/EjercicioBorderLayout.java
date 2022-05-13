@@ -5,8 +5,8 @@
 package ups.edu.ec.ejercicio0301;
 
 import java.awt.BorderLayout;
-import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 /**
@@ -22,11 +22,13 @@ public class EjercicioBorderLayout extends JFrame{
         contenedor = new JPanel();
         contenedor.setLayout(new BorderLayout());
         
-        contenedor.add(new JButton("Button 1"),BorderLayout.NORTH);
-        contenedor.add(new JButton("Button 4"),BorderLayout.SOUTH);
-        contenedor.add(new JButton("Button 5"),BorderLayout.EAST);
-        contenedor.add(new JButton("Button 3"),BorderLayout.WEST);
-        contenedor.add(new JButton("Button 2"),BorderLayout.CENTER);
+        contenedor.add(new JLabel("Button 1"),BorderLayout.NORTH);
+        contenedor.add(new JLabel("Button 4"),BorderLayout.SOUTH);
+        contenedor.add(new JLabel("Button 5"),BorderLayout.EAST);
+        contenedor.add(new JLabel("Button 2"),BorderLayout.CENTER);
+        contenedor.add(new JLabel("Button 3"),BorderLayout.WEST);
+        
+        
         
         add(contenedor);
         setSize(300,300);

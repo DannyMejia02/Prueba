@@ -5,7 +5,7 @@
 package ups.edu.ec.ejercicio0301;
 
 import java.awt.GridLayout;
-import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -23,7 +23,7 @@ public class EjercicioGridLayout extends JFrame {
         contenedor.setLayout(new GridLayout(3,2));
         
         for(int i=0;i<5;i++){
-            contenedor.add(new JButton("Button"+(i+1)));
+            contenedor.add(new JLabel("Button"+(i+1)));
         }
         
         add(contenedor);
