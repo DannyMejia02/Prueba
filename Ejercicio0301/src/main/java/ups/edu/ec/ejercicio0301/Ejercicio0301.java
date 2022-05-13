@@ -16,5 +16,6 @@ public class Ejercicio0301 {
         EjercicioBorderLayout p = new EjercicioBorderLayout();
         EjercicioFlowLayout f = new EjercicioFlowLayout();
         EjercicioGridLayout g = new EjercicioGridLayout();
+        EjercicioBandera b = new EjercicioBandera();
     }
 }

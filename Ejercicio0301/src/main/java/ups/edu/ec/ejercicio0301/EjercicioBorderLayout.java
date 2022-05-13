@@ -32,6 +32,8 @@ public class EjercicioBorderLayout extends JFrame{
         setSize(300,300);
         setVisible(true);
         setTitle("BorderLayout");
+        setLocation(900,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
     }
     

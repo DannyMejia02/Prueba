@@ -30,6 +30,8 @@ public class EjercicioGridLayout extends JFrame {
         setSize(300,300);
         setVisible(true);
         setTitle("GridLayout");
+        setLocation(100,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
     }
     
